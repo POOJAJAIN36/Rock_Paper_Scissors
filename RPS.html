@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's play</title>
+    <link rel="stylesheet" href="RPS.css">
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <!--This is used for images-->
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="./Images/Rock.png">
+        </div>
+        <div class="choice" id="paper">
+            <img src="./Images/Paper.png">
+        </div>
+        <div class="choice" id="scissors">
+            <img src="./Images/Siccisors.png">
+        </div>
+    </div>
+
+    <!--This is the score board-->
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>You</p>
+        </div>
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p>Comp</p>
+        </div>
+    </div>
+
+    <!--This is the message box displayed at the bottom-->
+    <div class="msg-container">
+        <p id="msg">Play your move</p>
+    </div>
+
+    <!--This is final message of winner-->
+    <div class="msg-container1">
+        <p id="msg1">You won!</p>
+    </div>
+    <script src="RPS.js"></script>
+</body>
+</html>
